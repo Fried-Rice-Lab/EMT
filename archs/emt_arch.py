@@ -126,6 +126,6 @@ if __name__ == '__main__':
         return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 
-    net = EMT(upscale=4, dim=60, n_groups=6, n_blocks=6,num_in_ch=3,num_out_ch=3,num_heads=3,mlp_ratio=2,
-              num_sa=2,window_list=[ [32, 8],[8, 32] ],shift_list=[ [16, 4],[4, 16]])
+    net = EMT(upscale=4, dim=60, n_blocks=6, n_layers=6,num_in_ch=3,num_out_ch=3,num_heads=3,mlp_ratio=2,
+              n_GTLs=2,window_list=[ [32, 8],[8, 32] ],shift_list=[ [16, 4],[4, 16]])
     print(count_parameters(net))
