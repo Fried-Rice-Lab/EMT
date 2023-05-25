@@ -23,3 +23,17 @@ python test.py -expe options/EMT.yml -task options/LSR_x4.yml
 ```shell
 python train.py -expe options/EMT.yml -task options/LSR_x4.yml
 ```
+
+## Citation
+
+If EMT helps your research or work, please consider citing the following works:
+
+----------
+```BibTex
+@article{zheng2023efficient,
+  title={Efficient Mixed Transformer for Single Image Super-Resolution},
+  author={Zheng, Ling and Zhu, Jinchen and Shi, Jinpeng and Weng, Shizhuang},
+  journal={arXiv preprint arXiv:2305.11403},
+  year={2023}
+}
+```
