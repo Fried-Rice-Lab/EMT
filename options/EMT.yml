@@ -19,7 +19,7 @@ network_g:
 
 # path #################################################################################################################
 path:
-  pretrain_network_g: modelzoo/EMT/EMT_LSR_x4.pth
+  pretrain_network_g: modelzoo/EMT/EMT_LSR_x2.pth
   strict_load_g: true
   resume_state: ~
 
